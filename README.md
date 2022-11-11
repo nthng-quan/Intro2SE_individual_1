@@ -1,1 +1,2 @@
-# Intro2SE_individual_1
+# Introduction to Software Engineering individual assignment 1
+`Role: Back end - NodeJS, ExpressJS`
