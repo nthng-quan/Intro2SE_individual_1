@@ -36,7 +36,7 @@ export const getUser = (req, res) => {
 
 export const deleteUser = (req, res) => {
     const { id } = req.params;
-    users = users.filter((user) => user.id !== id);
+    users = users.filter((user) => user.userId !== id);
 
     res.send(`User with id ${id} deleted`);
 }
